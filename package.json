@@ -1,0 +1,22 @@
+{
+  "name": "mini-world-monitor",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mini World Monitor — Real-time global intelligence dashboard",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "globe.gl": "^2.45.0",
+    "three": "^0.183.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.183.1",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  }
+}

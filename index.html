@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini World Monitor</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌍</text></svg>" />
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <div id="app">
+    <div id="globe-container"></div>
+    <div id="sidebar">
+      <h1>Mini World Monitor</h1>
+      <p class="subtitle">Global Intelligence Dashboard</p>
+      <div id="layers">
+        <label class="layer-toggle active">
+          <input type="checkbox" id="toggle-research" checked />
+          <span class="dot" style="background:#ff6b6b"></span>
+          Research Centers
+          <span class="count" id="count-research">0</span>
+        </label>
+        <label class="layer-toggle active">
+          <input type="checkbox" id="toggle-universities" checked />
+          <span class="dot" style="background:#ffd93d"></span>
+          Top Universities
+          <span class="count" id="count-universities">0</span>
+        </label>
+        <label class="layer-toggle active">
+          <input type="checkbox" id="toggle-companies" checked />
+          <span class="dot" style="background:#6bcbff"></span>
+          Top Companies
+          <span class="count" id="count-companies">0</span>
+        </label>
+      </div>
+      <div id="info-panel">
+        <h3 id="info-title">Click a marker</h3>
+        <p id="info-desc">Select a location to see details</p>
+      </div>
+      <p class="footer">Created by Sohan · Open source intelligence</p>
+    </div>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
