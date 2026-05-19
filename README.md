@@ -1,6 +1,6 @@
 # Mini World Monitor
 
-![screenshot](/screenshot.png)
+<img width="287" height="176" alt="Image" src="https://github.com/user-attachments/assets/43523afc-2f76-46c6-b618-1e38341ecb01" />
 
 Real-time global intelligence dashboard — interactive 3D globe with research centers, top universities, and top companies mapped worldwide.
 
